@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RTR Attendance App</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v2.0.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/rtr.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">RTR e-Attendance</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#"><i class="bx bx-user"></i> <span>Mark Attendance</span></a></li>
+          <li><a href="#"><i class="bx bx-home"></i> <span>Admin Dashboard</span></a></li>
+          <li><a href="#"><i class="bx bxs-wrench"></i> <span>Settings</span></a></li>
+          <!-- <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li> -->
+          <!-- <li><a href="#services"><i class="bx bx-server"></i> Services</a></li> -->
+          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li> -->
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Attendance Tracker</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Attendance Tracker</li>
+          </ol>
+        </div>
+        <hr />
+        <br />
+        <div class="container">
+          <div class="section-title">
+            <h2>Welcome Shanmugam</h2>
+            <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+            <button class="trackerbtn" type="button" id="checkout">Check out</button>
+            <button class="trackerbtnleave" type="button" id="leave">Leave</button>
+          </div>
+
+
+
+
+          <div class="section-title-tracker" onclick="projectdetails(this)">
+            <h2 style="font-weight: bold;"><i class="icofont-rounded-right"></i>Project 1</h2>
+          </div>
+
+          <div class="row" style="display: none;">
+            <div class="col-lg-6">
+              <ul>
+                <li class="employeelist">
+                  <strong>Employee 1</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist">
+                  <strong>Employee 2</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist"> 
+                  <strong>Employee 3</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist"> 
+                  <strong>Employee 4</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist">
+                  <strong><input type="text" placeholder="Employee name"> </strong>
+                  <button class="addemployeebtn" type="button" id="addemployee" onclick="tracker(this)">Add</button>
+                </li>
+                </ul>
+                
+            </div>
+          </div>
+          
+          <div class="section-title-tracker" onclick="projectdetails(this)">
+            <h2 style="font-weight: bold;"><i class="icofont-rounded-right"></i>Project 2</h2>
+          </div>
+
+          <div class="row" style="display: none;">
+            <div class="col-lg-6">
+              <ul>
+                <li class="employeelist">
+                  <strong>Employee5</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist">
+                  <strong>Employee6</strong>
+                  <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
+                  <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+                  <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
+                </li>
+                <li class="employeelist">
+                  <strong><input type="text" placeholder="Employee name"> </strong>
+                  <button class="addemployeebtn" type="button" id="addemployee" onclick="tracker(this)">Add</button>
+                </li>
+                </ul>
+                
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+     
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RTR-Constructions</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+  
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script>
+    function projectdetails(obj){
+      if(obj.nextElementSibling.style.display=='none'){
+        obj.nextElementSibling.style.display='block';
+        obj.getElementsByTagName('i')[0].className='icofont-rounded-down';
+      }
+      else{
+        obj.nextElementSibling.style.display='none';
+        obj.getElementsByTagName('i')[0].className='icofont-rounded-right';
+      }
+    }
+
+    function tracker(obj){
+      if(obj.id != 'addemployee'){
+        alert("Attendance marked successfully")
+        obj.disabled = true;
+        obj.style.backgroundColor = 'lightgrey';
+      }
+      else{
+        alert("adding employee")
+      }
+      
+    }
+
+  </script>
+
+
+
+</body>
+
+</html>
