@@ -298,6 +298,7 @@ margin-bottom: 10px;
     border-radius: 5px;
     border: navajowhite;
     color: whitesmoke;
+    margin-right: 10px;
 }
 
 .trackerbtnin{
@@ -305,6 +306,7 @@ margin-bottom: 10px;
     border-radius: 5px;
     border: navajowhite;
     color: whitesmoke;
+    margin-right: 10px;
 }
 .addemployeebtn{
   background: #8e14df;
@@ -326,7 +328,7 @@ margin-bottom: 10px;
     color: whitesmoke;
 }
 .employeelist{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section-title-tracker:hover {
@@ -1055,6 +1057,7 @@ margin-bottom: 10px;
 
 .portfolio-details .portfolio-info {
   padding: 30px;
+  padding-top: 0px;
   position: absolute;
   right: 0;
   bottom: -70px;
@@ -1102,7 +1105,7 @@ margin-bottom: 10px;
   }
   .portfolio-details .portfolio-info {
     position: static;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 }
 
