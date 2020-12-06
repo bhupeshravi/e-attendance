@@ -59,7 +59,7 @@
       <nav class="nav-menu">
         <ul>
           <li class="active"><a href="#"><i class="bx bx-user"></i> <span>Mark Attendance</span></a></li>
-          <li><a href="#"><i class="bx bx-home"></i> <span>Admin Dashboard</span></a></li>
+          <!-- <li><a href="#"><i class="bx bx-home"></i> <span>Admin Dashboard</span></a></li> -->
           <li><a href="#"><i class="bx bxs-wrench"></i> <span>Settings</span></a></li>
           <!-- <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li> -->
           <!-- <li><a href="#services"><i class="bx bx-server"></i> Services</a></li> -->
@@ -91,8 +91,8 @@
           <div class="section-title">
             <h2>Welcome Shanmugam</h2>
             <button class="trackerbtnin" type="button" id="checkin" onclick="tracker(this)">Check in</button>
-            <button class="trackerbtn" type="button" id="checkout">Check out</button>
-            <button class="trackerbtnleave" type="button" id="leave">Leave</button>
+            <button class="trackerbtn" type="button" id="checkout" onclick="tracker(this)">Check out</button>
+            <button class="trackerbtnleave" type="button" id="leave" onclick="tracker(this)">Leave</button>
           </div>
 
 
@@ -245,6 +245,29 @@
     }
 
   </script>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyD6IJz1aJX_hnUyoArp6SvvjfgKX4EVUKQ",
+      authDomain: "rtr-e-attendance.firebaseapp.com",
+      databaseURL: "https://rtr-e-attendance-default-rtdb.firebaseio.com",
+      projectId: "rtr-e-attendance",
+      storageBucket: "rtr-e-attendance.appspot.com",
+      messagingSenderId: "964397165617",
+      appId: "1:964397165617:web:84f39435545df5e3b03910"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
 
 
 
